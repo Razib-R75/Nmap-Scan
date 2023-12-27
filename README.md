@@ -2,7 +2,7 @@ Certainly! Here's the README file in a format ready for you to copy and paste:
 
 ---
 
-# Nmap Scan Project: Daraz.com
+# Nmap Scan Project: vulnerabilities check
 
 ## Overview
 This repository contains the results and analysis of an extensive Nmap scan conducted on `daraz.com`. The scan was designed to assess the network for various aspects, including service versions, running scripts, and potential vulnerabilities.
@@ -10,7 +10,7 @@ This repository contains the results and analysis of an extensive Nmap scan cond
 ## Scan Details
 The command used for the scan was:
 ```
-nmap -oX scan_daraz.xml -oG scan_daraz.txt -p 1-65535 -A -sV -sC --script=default,vuln,discovery,exploit,external,vulners,auth,vulscan Website.com
+nmap -oX scan_result.xml -oG scan_result.txt -p 1-65535 -A -sV -sC --script=default,vuln,discovery,exploit,external,vulners,auth,vulscan Website.com
 ```
 
 ### Command Breakdown
