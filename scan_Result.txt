@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Sun Nov  5 15:47:40 2023 as: nmap -oX scan_bddaraz.xml -oG scan_bddaraz.txt -p 1-65535 -A -sV -sC --script=default,vuln,discovery,exploit,external,vulners,auth,vulscan daraz.com.bd
+Host: 47.246.165.217 ()	Status: Up
+Host: 47.246.165.217 ()	Ports: 80/open/tcp//http//Tengine httpd Aserver/, 443/open/tcp//ssl|http//Tengine httpd Aserver/	Ignored State: filtered (65533)
+# Nmap done at Sun Nov  5 16:28:46 2023 -- 1 IP address (1 host up) scanned in 2466.19 seconds
